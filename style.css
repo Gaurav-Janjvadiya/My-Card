@@ -1,11 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Hanken+Grotesk:wght@500;700;800&family=Montserrat:wght@500;700&family=Outfit:wght@400;700&family=Poppins:wght@100;200;300;400;500;600;700&family=Roboto:wght@400;700&display=swap');
 
+/* :root{
+} */
+
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: "poppins",system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 400;
+    background-color: transparent;
+    color: rgb(1, 10, 56);
+}
+
+body{
+    height: 100vh;
+    background: rgb(34,193,195);
+    background: linear-gradient(135deg, rgba(34,193,195,1) 0%, rgba(31,235,153,1) 33%, rgba(87,196,249,1) 65%, rgba(80,149,237,1) 91%);
 }
 
 html,body,.class1,.class2,.box{
@@ -51,7 +62,7 @@ p{
     width: 40vw;
     justify-content: space-between;
     flex-direction: row-reverse;
-    border: solid black 2px;
+    border: solid  rgb(1, 10, 56) 2px;
     border-radius: 10px;
 }
 
